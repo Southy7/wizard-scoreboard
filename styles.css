@@ -49,6 +49,7 @@ html {
   min-height: 100%;
   background: var(--bg);
   -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
   min-height: 100dvh;
   background: var(--bg);
   color: var(--text);
+  touch-action: manipulation;
 }
 
 button,
@@ -68,6 +70,7 @@ select {
 
 button {
   -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 button:focus-visible,
