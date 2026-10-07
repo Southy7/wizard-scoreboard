@@ -221,6 +221,7 @@
 .stepper-button,
 .value-button {
   min-height: var(--touch-target);
+  touch-action: none;
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--surface);
